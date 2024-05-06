@@ -35,6 +35,9 @@ export default {
 
     methods: {
         handleChange(value) {
+            console.log('this.currenField.options', this.currenField.options)
+            console.log('value', value)
+            console.log('v.value', v.value)
             let selectedOption = find(this.currentField.options, v => v.value == value);
             this.value = selectedOption ? selectedOption.value : '';
             this.field.value = this.value;
