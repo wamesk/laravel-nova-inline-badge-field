@@ -13,7 +13,7 @@ export default {
             this.loader = true;
             this.showForm = false;
 
-            let selectedOption = find(this.currentField.options, v => v.value == value);
+            let selectedOption = find(this.currentField.options, v => v.value == value.target.value);
             this.value = selectedOption ? selectedOption.value : '';
             this.field.value = this.value;
             this.field.label = this.field.options.find(item => item.value === this.value)?.label;

@@ -4,7 +4,7 @@ This package adds inline editing for the badge field in index, detail and form.
 
 ## Requirements
 
-- `laravel/nova: ^4.0`
+- `laravel/nova: ^5.0`
 
 
 ## Installation
